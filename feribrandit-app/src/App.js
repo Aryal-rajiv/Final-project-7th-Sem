@@ -3,6 +3,7 @@ import "./App.css";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
+<<<<<<< HEAD
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { GlobalStyle } from "./GlobalStyle";
@@ -35,6 +36,10 @@ const App = () => {
 
     
   };
+=======
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+>>>>>>> 1b55a9156310c98c3027bab0439aecea455e4647
 
   return (
      
@@ -44,9 +49,14 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+<<<<<<< HEAD
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
 
+=======
+            <Route path="about" element={<About />}/>
+            <Route patha="contact" element={<Contact />}/>
+>>>>>>> 1b55a9156310c98c3027bab0439aecea455e4647
           </Route>
         </Routes>
       </BrowserRouter>
