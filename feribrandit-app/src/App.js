@@ -5,6 +5,10 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Sell from "./pages/Sell";
+import Shop from "./pages/Shop";
+import Product from "./pages/Product";
+import Cart  from "./pages/Cart";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 
@@ -45,9 +49,12 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/sell" element={<Sell />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/product/:id" element={<Product />} />
+            <Route path="/cart" element ={<Cart />} />
           </Route>
         </Routes>
       </BrowserRouter>
