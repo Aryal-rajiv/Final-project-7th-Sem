@@ -167,6 +167,42 @@ const Nav = () => {
               Contact
             </NavLink>
           </li>
+              
+          <li>
+            <NavLink
+              to="/Shop"
+              className="navbar-link "
+              onClick={() => setMenuIcon(false)}>
+              Shop
+            </NavLink>
+          </li>
+              
+          <li>
+            <NavLink
+              to="/Sell"
+              className="navbar-link "
+              onClick={() => setMenuIcon(false)}>
+              Sell
+            </NavLink>
+          </li>
+              
+          <li>
+            <NavLink
+              to="/Rebrand"
+              className="navbar-link "
+              onClick={() => setMenuIcon(false)}>
+              Rebrand
+            </NavLink>
+          </li>
+              
+          <li>
+            <NavLink
+              to="/Cart"
+              className="navbar-link "
+              onClick={() => setMenuIcon(false)}>
+              Cart
+            </NavLink>
+          </li>
         
         </ul>
 

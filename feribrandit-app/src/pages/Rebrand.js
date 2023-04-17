@@ -1,11 +1,11 @@
 import React from 'react'
 
-function footer() {
+const Rebrand = () => {
   return (
     <div>
-      
+      Designer
     </div>
   )
 }
 
-export default footer
+export default Rebrand
