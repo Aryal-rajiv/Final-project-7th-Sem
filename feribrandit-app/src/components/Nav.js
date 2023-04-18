@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { CgMenu, CgClose } from "react-icons/cg";
+import { BsCart4 } from "react-icons/bs";
 
 const Nav = () => {
   const [menuIcon, setMenuIcon] = useState();
@@ -198,9 +199,10 @@ const Nav = () => {
           <li>
             <NavLink
               to="/Cart"
-              className="navbar-link "
-              onClick={() => setMenuIcon(false)}>
-              Cart
+              className="navbar-link cart-trolley--link">
+                <BsCart4 className="cart-trolley"/>
+                <span className="cart-total--item">10</span>
+          
             </NavLink>
           </li>
         
