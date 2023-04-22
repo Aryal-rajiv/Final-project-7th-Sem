@@ -12,6 +12,9 @@ import Cart  from "./pages/Cart";
 import Rebrand from "./pages/Rebrand"
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 
 
 const App = () => {
@@ -47,6 +50,8 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <GlobalStyle />
+        <Header />
+
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -59,6 +64,7 @@ const App = () => {
             <Route path="/cart" element ={<Cart />} />
           </Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
     );  

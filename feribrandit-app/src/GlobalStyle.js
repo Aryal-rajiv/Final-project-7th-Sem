@@ -147,6 +147,9 @@ input, textarea{
           grid-template-columns: 1fr;
         }
     
-`;
+`; 
+ 
+
+export default GlobalStyle;
 
  
