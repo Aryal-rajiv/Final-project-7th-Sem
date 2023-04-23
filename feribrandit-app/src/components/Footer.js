@@ -29,7 +29,7 @@ const footer = () => {
         </div>
 
         <div className='footer-subscribe'>
-          <h3>Subscrine to get cloth updates</h3>
+          <h3>Subscribe to get cloth updates</h3>
           <form action='#'>
             <input type='email' placeholder='Your email' />
             <input typeof='submit' value="subscribe" />
@@ -89,7 +89,7 @@ const Wrapper = styled.section`
         border-radius: 50%;
         border: 2px solid ${({ theme }) => theme.colors.white};
         .icons {
-          color: ${({ theme }) => theme.colors.red};
+          color: ${({ theme }) => theme.colors.white};
           font-size: 2.4rem;
           position: relative;
           cursor: pointer;
