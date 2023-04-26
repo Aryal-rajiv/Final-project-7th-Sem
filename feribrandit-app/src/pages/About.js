@@ -1,9 +1,9 @@
-import React, { useContext } from 'react';
-import { useProductContext } from '../context/productcontext';
 import HeroSection from '../components/HeroSection';
+import { useProductContext } from '../context/productcontext';
 
 const About = () => {
-  const {myName } = useProductContext();
+  const { myName } = useProductContext();
+
   const data ={
     name : "Rebrand",
   };
@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       {myName}
-      <HeroSection myData={data} />
+      <HeroSection myData={data} />{" "}
     </>
     
   );

@@ -7,9 +7,10 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Sell from "./pages/Sell";
 import Shop from "./pages/Shop";
-import Product from "./pages/Product";
+import Products from "./pages/Products";
 import Cart  from "./pages/Cart";
-import Rebrand from "./pages/Rebrand"
+import Rebrand from "./pages/Rebrand";
+import SingleProduct from "./pages/SingleProduct";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
@@ -61,8 +62,9 @@ const App = () => {
             <Route path="/sell" element={<Sell />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/rebrand" element={<Rebrand />} />
-            <Route path="/product/:id" element={<Product />} />
+            <Route path="/product/:id" element={<Products />} />
             <Route path="/cart" element ={<Cart />} />
+            <Route path="/singleproduct/:id" element={<SingleProduct />} />
             <Route path="*" element ={<Error />} />
           </Route>
         </Routes>
