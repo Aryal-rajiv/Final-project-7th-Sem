@@ -4,7 +4,7 @@ import reducer from "../reducer/productReducer";
 
 const MyContext = createContext();
 
-const API = "https://api.pujakaitem.com/api/products";
+const API = "https://feribrand-backend-production.up.railway.app/";
 
 const initialState = {
     isLoading: false,

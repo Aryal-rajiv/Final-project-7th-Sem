@@ -25,7 +25,7 @@ const footer = () => {
       <div className='container grid grid-four-column'>
         <div className='footer-about'>
           <h3>FeriBrandit</h3>
-          <p>you owe us</p>
+          <p>New way of Fashion</p>
         </div>
 
         <div className='footer-subscribe'>

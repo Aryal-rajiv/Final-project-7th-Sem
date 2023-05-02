@@ -34,7 +34,10 @@ const Contact = () => {
   `;
   return (
     <Wrapper>
-      <h2 className="common-heading">Contact</h2>
+      <h3 className="Common-paragraph">Thank you very much for your interest in FeribrandIT- Way of sustainable fashion!</h3>
+<p className="Common-paragraph">No matter what stage you are at planning for your fashion, we are here to help. Please, do not hesitate to contact us with any questions you may have – it is our pleasure to help you with your fashion and we are always happy to hear from you.
+
+Send us an email at any time!  We will get back to you on the email within 24 hours. In case you did not see our reply, please do check the spam folder. </p>
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.273530900572!2d84.43790322389646!3d27.708839675428514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994e4ad70984a03%3A0xc2c47a165d3449dd!2sAaptari%2C%20Bharatpur%2044200!5e0!3m2!1sen!2snp!4v1681920449983!5m2!1sen!2snp" 
       width="100%" 
