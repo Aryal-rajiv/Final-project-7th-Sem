@@ -3,11 +3,9 @@ import "./App.css";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Sell from "./pages/Sell";
 import Shop from "./pages/Shop";
-import Products from "./pages/Products";
 import Cart  from "./pages/Cart";
 import Rebrand from "./pages/Rebrand";
 import SingleProduct from "./pages/SingleProduct";
@@ -57,12 +55,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/sell" element={<Sell />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/rebrand" element={<Rebrand />} />
-            <Route path="/product/:id" element={<Products />} />
             <Route path="/cart" element ={<Cart />} />
             <Route path="/singleproduct/:id" element={<SingleProduct />} />
             <Route path="*" element ={<Error />} />

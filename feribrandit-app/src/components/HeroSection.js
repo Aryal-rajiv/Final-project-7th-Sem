@@ -44,21 +44,22 @@ const Wrapper = styled.section`
     width: 50%;
     p {
       margin: 3rem 0;
-      padding-left: 2rem;
+      padding-left: 8rem;
       
     }
     h1 {
       text-transform: capitalize;
       font-weight: bold;
-      padding-left: 2rem;
+      padding-left: 8rem;
     }
     button{
-      margin-left: 40rem;
+      margin-left: 48rem;
     }
     h3{
       margin-bottom: 1rem;
-      margin-left: 2rem;
-      color: black;
+      margin-left: 8rem;
+      color: #A52A2A;
+      font-weight: bold ;
     }
   }
   .hero-section-image {
